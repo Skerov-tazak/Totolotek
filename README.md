@@ -1,18 +1,18 @@
-## Getting Started
+## Totolotek - System symulacji loterii
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Totolotek to jeden z pokazowych projektów zrealizowanych przeze mnie w ramach studiów. Implementuje on grę losową dla wielu graczy i jednocześnie posiada system realizowania płatności
 
-## Folder Structure
+## Najważniejsze Klasy
 
-The workspace contains two folders by default, where:
+Ten projekt w pełni pokazuje moc programowania obiektowego. Dzięki sprytnemu wykorzystaniu dziedziczenia i polimorfizmu otrzymujemy bardzo elegancki kod realizujący wymagające zadania.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Przede wszystkim warto spojrzeć na klasy:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `Centrala`: Realizuje główną funkcjonalność systemu losującego, licząc wydane kupony i implementując inteligentny system sprawdzania poprawności kuponów. 
+- `Bank`: Procesuje płatności w oparciu o indywidualne kody weryfikacyjne graczy - pozawala to uniknąć oszustw i przekrętów używająć interfejsu gracza.
+- ``:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Testy
 
-## Dependency Management
+Folder `src/Test` zawiera serię prostych testów jednostkowych opartych na bibliotece `JUnit` - jest to standard w świecie Javy i pozwala na o wiele sprawniejsze debugowanie programu. 
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
