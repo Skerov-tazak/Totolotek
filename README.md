@@ -1,4 +1,5 @@
-## Totolotek - System symulacji loterii
+# Totolotek 
+## System symulacji loterii
 
 Totolotek to jeden z pokazowych projektów zrealizowanych przeze mnie w ramach studiów. Implementuje on grę losową dla wielu graczy i jednocześnie posiada system realizowania płatności
 
@@ -15,4 +16,5 @@ Przede wszystkim warto spojrzeć na klasy:
 ## Testy
 
 Folder `src/Test` zawiera serię prostych testów jednostkowych opartych na bibliotece `JUnit` - jest to standard w świecie Javy i pozwala na o wiele sprawniejsze debugowanie programu. 
+
 
