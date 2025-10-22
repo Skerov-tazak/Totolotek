@@ -11,10 +11,11 @@ Przede wszystkim warto spojrzeć na klasy:
 
 - `Centrala`: Realizuje główną funkcjonalność systemu losującego, licząc wydane kupony i implementując inteligentny system sprawdzania poprawności kuponów. 
 - `Bank`: Procesuje płatności w oparciu o indywidualne kody weryfikacyjne graczy - pozawala to uniknąć oszustw i przekrętów używająć interfejsu gracza.
-- ``:
+- `Gracz`: Jest głównym managerem dla wszelkich typów graczy.  
 
 ## Testy
 
 Folder `src/Test` zawiera serię prostych testów jednostkowych opartych na bibliotece `JUnit` - jest to standard w świecie Javy i pozwala na o wiele sprawniejsze debugowanie programu. 
+
 
 
